@@ -1,8 +1,10 @@
-RootMotionView
 CollisionShape3D
 CharacterBody3D
-AnimationTree
+SoftBody3D
 MeshInstance3D
+Timer
+RootMotionView
+AnimationTree
 Camera3D
 SpringArm3D
 Node3D
