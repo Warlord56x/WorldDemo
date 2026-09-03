@@ -25,7 +25,7 @@ enum ATTACKS {
 var airborne_time = 100
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector")
+var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector") * 2
 
 @export var speed = 0.2
 @export var jump_velocity = 4.5
